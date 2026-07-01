@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f4f4;
+    width: 700px;
+    margin: 40px auto;
+}
+
+h1 {
+    color: darkred;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+dl {
+    background: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+dt {
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+dd {
+    margin-bottom: 10px;
+    margin-left: 0;
+}
+
+input[type=text],
+select {
+    width: 100%;
+    padding: 8px;
+}
+
+input[type=submit] {
+    margin-top: 20px;
+    padding: 10px 20px;
+}
