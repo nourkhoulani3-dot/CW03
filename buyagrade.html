@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Buy Your Way to a Better Education!</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <h1>Buy Your Way to a Better Education!</h1>
+
+    <p>Want a better grade? We can help.</p>
+
+    <form action="sucker.php" method="post">
+
+        <dl>
+
+            <dt>Name</dt>
+            <dd>
+                <input type="text" name="name">
+            </dd>
+
+            <dt>Section</dt>
+            <dd>
+                <select name="section">
+                    <option value="">(Select a section)</option>
+                    <option>MA</option>
+                    <option>MB</option>
+                    <option>MC</option>
+                    <option>MD</option>
+                    <option>ME</option>
+                    <option>MF</option>
+                    <option>MG</option>
+                    <option>MH</option>
+                </select>
+            </dd>
+
+            <dt>Credit Card Number</dt>
+            <dd>
+                <input type="text" name="cardnumber">
+            </dd>
+
+            <dt>Credit Card Type</dt>
+            <dd>
+                <label>
+                    <input type="radio" name="cardtype" value="visa">
+                    Visa
+                </label>
+
+                <label>
+                    <input type="radio" name="cardtype" value="mastercard">
+                    MasterCard
+                </label>
+            </dd>
+
+        </dl>
+
+        <p>
+            <input type="submit" value="I am a giant sucker.">
+        </p>
+
+    </form>
+
+</body>
+
+</html>
